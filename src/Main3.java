@@ -9,6 +9,7 @@ public class Main3 {
         //定义一个栈
         Stack<Integer> stack = new Stack<>();
 
+
         //将链表中所有的数取出来，压入栈中
         while (listNode != null){
             stack.push(listNode.val);
