@@ -31,6 +31,9 @@ public class Main8 {
         /* 上面的递归的方法，时间复杂度为 O(n^2)，我们可以通过递推的方法来保存所有算过的值
         * 时间复杂度为 O(n)
         *  */
+        if (target <= 0){
+            return 0;
+        }
         if (target == 1) {
             return 1;
         }
